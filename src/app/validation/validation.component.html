@@ -1,0 +1,29 @@
+<div class="validation-section">
+  <h2>Validation Results</h2>
+  <table class="validation-table">
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>Score (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Accuracy</td>
+        <td>{{ accuracy }}%</td>
+      </tr>
+      <tr>
+        <td>Conciseness</td>
+        <td>{{ conciseness }}%</td>
+      </tr>
+      <tr>
+        <td>Relevance</td>
+        <td>{{ relevance }}%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="button-container">
+    <button class="navigate-button" (click)="navigateToDashboard()">Back to Dashboard</button>
+  </div>
+</div>
